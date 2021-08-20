@@ -21,7 +21,7 @@ const PokemonDetail: React.FC = ({ match }: any) => {
     <Flex
       width="100%"
       height="100vh"
-      bg="teal.500"
+      bg="teal.400"
       justify="center"
       align="center"
     >
