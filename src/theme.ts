@@ -3,25 +3,25 @@
 
    For more information on how to use the theme file see: https://styled-system.com/theme-specification
 */
-import { theme } from '@chakra-ui/core';
-import typeColors from './typeColors';
+import { theme } from "@chakra-ui/react";
+import typeColors from "./typeColors";
 
 const customTheme = {
-    ...theme,
-    colors: {
-        ...theme.colors,
-        ...typeColors,
-    },
-    fonts: {
-        ...theme.fonts,
-        body: 'Roboto, sans-serif',
-        condensed: `Roboto Condensed,Roboto, sans-serif`,
-        heading: 'Roboto, sans-serif',
-    },
-    letterSpacings: {
-        ...theme.letterSpacings,
-        widest: '0.09em',
-    },
+  ...theme,
+  colors: {
+    ...theme.colors,
+    ...typeColors,
+  },
+  fonts: {
+    ...theme.fonts,
+    body: "Roboto, sans-serif",
+    condensed: `Roboto Condensed,Roboto, sans-serif`,
+    heading: "Roboto, sans-serif",
+  },
+  letterSpacings: {
+    ...theme.letterSpacings,
+    widest: "0.09em",
+  },
 };
 
 export default customTheme;

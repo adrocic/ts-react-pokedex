@@ -1,1 +1,1 @@
-export { default } from './PokemonTypeBubble';
+export { default } from "./PokemonTypeBubble";
